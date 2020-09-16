@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap'); */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,a,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0 auto;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {font-family: 'Nanum Barun Gothic', sans-serif; color:#333; font-size:14px; }
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+ul,ol {list-style:none;}
+
+input, select, button,textarea{
+    border:0; outline:0;border-radius:0; 
+	-webkit-appearance:none; appearance:none; 
+	vertical-align:middle;
+	font-size:inherit; font-family:inherit;
+	color:inherit;}
+img{border:0; outline:0;vertical-align:middle;}
+img,video,iframe{max-width:100%;}
+a{display:inline-block; width:100%; height:100%;vertical-align:baseline;text-decoration:none; color:inherit;}
+.clear::after{content:''; display:block; clear:both;}
+
+.first{height:800px; background:url(../images/top_bg.jpg); background-size:cover; position:relative;}
+.first .logo{position:absolute; left:60px; top:30px;}
+.nav{position:absolute; right:116px; top:45px;}
+.gnb{width:;}
+.gnb li{float:left; margin-right:80px;}
+.gnb li a{color:#fff; font-size:18px;}
+.nav .gnb li:hover a, .nav .gnb li:focus a, .nav .gnb li.on a{color:#349e6d;}
+
+.center{text-align:center;	position:relative; width:906px; height:722px;}
+.center .warter{width:690px; height:722px;}
+.center h1{font-size:100px; color:#fff; text-align:right; position:absolute; left:72px; top:240px;}
+.center .tube{position:absolute; left:603px; top:378px;}
+
+.second{margin-top:80px;}
+.second .content{text-align:center; width:750px;}
+.content .logo_02{margin-bottom:105px; width:372px; height:170px;}
+.content .info{width:530px;  height:530px;}
+
+
+.third{position:relative; width:100%; height:592px; background:#eee;}
+.third .title{font-size:45px; position:absolute; left:96px; top:67px;}
+.thirth .graph{width:975px;}
+.thirth .graph li{width:470px; height:60px; background:#c2c2c4; border-radius:30px;}
+
+.fourth{/* background:yellow; */ width:100%; height:1779px; text-align:center; position:relative;}
+.fourth .title{font-size:45px; position:absolute; top:145px; left:72px;}
+.fourth .pic{}
+.fourth ul{width:1176px; height:1163px;}
+.pic li{float:left; margin-right:35px; margin-top:222px; width:367px;}
+.pic li .text{margin-top:25px; text-align:left;}
+.pic li .text p{font-size:20px;}
+.pic li .text h4{font-size:36px;}
+.pic li:nth-child(3){margin-right:0;}
+.pic li:nth-child(3n){margin-right:0;}
+
+.fifth{height:1680px;background:#eee;}
+.wrap{margin:0 auto; width:1366px; height:1680px; position:relative;}
+.fifth .web{font-size:55px;  position:absolute; left:95px; top:80px;}
+
+.sema{position:absolute;  left:50px; top:195px;}
+.sema .pic{width:530px; height:625px; float:left;}
+.sema .sema_02{width:268; height:625px; float:right; background:#65274e; color:#fff; font-size:55px; text-align:right; padding:50px 35px 282px 25px; box-sizing:border-box;}
+.sema .sema_02 span{color:#2a93d1;}
+
+
+.uni{position:absolute; right:95px; top:195px; width:367px; height:625px; background:url(../images/unilever.jpg) no-repeat; background-size:cover; }
+.uni img{width:212px; height:55px;/*  position:absolute; right:180px; top:525px; */}
+
+.acne{position:absolute; left:95px; bottom:230px;}
+.acne .studio_02{width:260px; height:550px; background:#65274e; color:#fff; font-size:55px; float:left; padding:230px 43px 196px 40px; box-sizing:border-box; text-align:center;}
+.acne .studio{float:right;}
+
+.fiat{position:absolute; right:95px; bottom:230px; width:430px; height:550px;}
+
+
+.footer{height:200px; background:#333; color:#fff; font-size:30px;}
+.footer p{text-align:center; padding-top:40px; box-sizing:border-box;}
+

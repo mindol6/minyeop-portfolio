@@ -1,0 +1,141 @@
+@chareset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700&display=swap');
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,a,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {line-height:1;}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+ul,ol {list-style:none;}
+input, select, button,textarea{
+    border:0; outline:0;border-radius:0;
+	-webkit-appearance:none; appearance:none;
+	vertical-align:middle;
+	font-size:inherit; font-family:inherit;
+	color:inherit;}
+img{border:0; outline:0;vertical-align:middle;}
+img,video,iframe{max-width:100%;}
+span, a{display:inline-block;}
+.clear::after{content:''; display:block; clear:both;}
+a{vertical-align:baseline;text-decoration:none; color:inherit;}
+body{font-size:15px; color:#333; font-family: 'Arial', sans-serif ;/*  line-height:1.5; */}
+.in{width:1234px; margin:0 auto;}
+h3{width:100%; height:40px; font-size:40px; text-align:center; margin-bottom:50px; font-weight:normal}
+h4{font-weight:normal;}
+
+
+.first{height:200px; position:relative;}
+.center img{center; margin-top:30px; margin-bottom:30px; }
+
+.second{height:300px;}
+.second_wrap{width:1234px; height:470px; }
+
+.second_wrap .second_box{width:50%; height:474px;  float:left;}
+
+.second_wrap .second_box .info{width:50%; height:130px; line-height:150%; text-align:left; margin-top:10px;}
+
+.second_wrap .line{width:18px; height:474px;  float:left;}
+
+.second_wrap .graph li{width:145px; height:365px; float:left; margin-left:90px; /* background:orange; */ margin-right:60px; }
+.second_wrap .graph .graph_in{height:190px;/*  background:pink; */ position:relative; padding-top:0;}
+.second_box .graph h5{font-size:20px;  text-align:center; margin-bottom:20px;}
+.second_box .graph_in p{font-size:20px;  text-align:center;/*  background:red;  */position:absolute; left:65px; top:70px;}
+
+
+.third{background:#FFF; height:1260px;}
+.third h3{font-size:45px; text-align:center; padding:40px 0 47px; box-sizing:border-box;}
+
+.pic .graphic_pic li{width:370px; /*background:pink;*//* height:550px; */ float:left; margin-left:32.5px; margin-bottom:40px; position:relative;}
+
+.pic ul li h5{font-size:18px; margin-left:20px; margin-top:10px; font-weight:normal}
+.pic ul li h4{font-size:30px; margin-top:5px;}
+.pic img{display:block;}
+
+
+.fourth{height:1600px;}
+.fourth h3{margin-top:85px;  margin-bottom:40px; font-size:45px; text-align:center;}
+.photo{width:1234px; height:1400px; position:relative;}
+
+.photo .fiat{width:810px; height:353px; position:absolute; left:0; top:0;}
+.fiat h4{font-size:70px; color:#fff; position:absolute; left:575px; top:210px;}
+
+.photo .uni{width:384px;  position:absolute; right:0; top:0;}
+.uni h4{color:#fff; font-size:50px; width:220px; height:50px; position:absolute; right:60px; top:340px;}
+
+.photo .sema{width:482px; height:850px; position:absolute; left:0; top:395px;}
+.sema .pic{width:482px; height:462px; }
+.sema_02 .sema_bg{width:482px; height:388px;  background:#44717d; position:relative;}
+.sema_02 .sema_txt{position:absolute; right:20px; top:40px; width:235px; height:300px;}
+.sema_02 .sema_txt .text_c{color:#2a93d1;}
+.sema .sema_02{width:482px; height:388px;  color:#fff; font-size:55px; text-align:right; }
+
+.photo .acne{width:287px; height:374px; position:absolute; left:520px; top:395px;}
+.photo .acne h4{font-size:30px; color:#fff;position:absolute; left:90px; bottom:150px; text-align:center;l}
+
+.photo .mole{width:710px; height:439px; position:absolute; right:0; top:805px;}
+.photo .mole .mole_txt{font-size:55px; color:#fff; text-align:left;  position:absolute; left:65px; top:70px;}
+
+.fifth h4{font-size:70px; color:#fff; position:absolute; left:60px; top:210px;}
+.fifth .other h4{font-size:40px; color:#fff; position:absolute; left:180px; top:240px;}
+
+/*그래픽 마우스 호버효과*/
+.pic .graphic_pic li .mask{opacity:0; background:rgba(0,0,0,0.7); position:absolute; left:0; top:0; width:370px; height:308px;
+transition:all 1s;}
+.pic .graphic_pic li:hover .mask{opacity:1}
+
+
+
+/*웹디자인 마우스 호버효과*/
+.fourth .photo .fiat .mask{opacity:0; background:rgba(0,0,0,0.7); position:absolute; left:0; top:0; width:100%; height:100%;
+transition:all 1s;}
+.fourth .photo .fiat:hover .mask{opacity:1}
+
+.fourth .photo .uni .mask{opacity:0; background:rgba(0,0,0,0.7); position:absolute; left:0; top:0; width:100%; height:100%;
+transition:all 1s;}
+.fourth .photo .uni:hover .mask{opacity:1}
+
+.fourth .photo .sema .mask{opacity:0; background:rgba(0,0,0,0.7); position:absolute; left:0; top:0; width:100%; height:100%;
+transition:all 1s;}
+.fourth .photo .sema:hover .mask{opacity:1}
+
+.fourth .photo .acne .mask{opacity:0; background:rgba(0,0,0,0.7); position:absolute; left:0; top:0; width:100%; height:100%;
+transition:all 1s;}
+.fourth .photo .acne:hover .mask{opacity:1}
+
+.fourth .photo .mole .mask{opacity:0; background:rgba(0,0,0,0.7); position:absolute; left:0; top:0; width:100%; height:100%;
+transition:all 1s;}
+.fourth .photo .mole:hover .mask{opacity:1}
+
+
+.footer{height:200px; background:#4d4a4a; font-size:18px; color:#757575 ; text-align:center;}
+.footer p{padding-top:50px; box-sizing:border-box;}
+
+
+
+/*webport folio popup*/
+.overlay,.g_overlay{display:none; position:fixed; left:0; right:0; top:0; bottom:0; background:rgba(0,0,0,0.9); z-index:9999; overflow:auto;}
+.pop{width:1000px; /* height:800px;  */position:relative; margin:10px auto; background:gold;}
+.g_overlay .close{color:#fff; width:80px; height:40px; line-height:40px; font-size:15px; border:1px solid #fff; padding:5px 10px; position:fixed; top:50px; right:100px; text-align:center;}
+
+
+
+.target_link{position:absolute; top:70px; left:70%; transform:translateX(-50%); border:1px solid #333; padding:10px 20px; font-size:20px;}
